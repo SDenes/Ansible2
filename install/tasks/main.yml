@@ -1,0 +1,4 @@
+ - name: Install 3 Packages
+   yum: name=vim,mosh,tmux state=present
+   tags:
+         -packages

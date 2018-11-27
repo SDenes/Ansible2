@@ -1,0 +1,5 @@
+ - name: Update 3 packages
+   yum: name=vim,tmux,sudo state=latest
+   tags:
+    - packages
+
